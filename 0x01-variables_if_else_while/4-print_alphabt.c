@@ -12,6 +12,7 @@ while (lower <= 'z')
 if (lower == 'q' || lower == 'e')
 {
 putchar(lower);
+lower++;
 }
 }
 putchar('\n');
