@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * main - print decimal numbers to from 0-9
+ * main - print digit from 0-9
  *
  * Return: 0
  */
 int main(void)
 {
-int count = 0;
+count = 0;
 while (count < 10)
 {
-printf("%d", count);
+putchar(count);
 count++;
 }
 putchar('\n');
