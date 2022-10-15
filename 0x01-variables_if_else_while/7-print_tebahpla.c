@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - prints alphabets inlowercase but in
  * reverse
  *
