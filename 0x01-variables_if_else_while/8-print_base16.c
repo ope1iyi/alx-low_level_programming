@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints a ll numbers of base 16 
+ * main - prints a ll numbers of base 16
  * 48 -57  -> 0 -9 ; 97 - 109 -> a-f
  * Return: 0
  */
