@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints a ll numbers of base 16
- * 48 -57  -> 0 -9 ; 97 - 109 -> a-f
+ * 48 -57  -> 0 -9 ; 97 - 102 -> a-f
  * Return: 0
  */
 int main(void)
@@ -12,7 +12,7 @@ for (num = 48; num <= 57; num++)
 {
 putchar(num);
 }
-for (letter = 97; letter <= 109; letter++)
+for (letter = 97; letter <= 102; letter++)
 {
 putchar(letter);
 }
