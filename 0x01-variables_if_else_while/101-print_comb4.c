@@ -18,7 +18,7 @@ for (p3 = p2 + 1; p3 < 58; p3++)
 putchar(p1);
 putchar(p2);
 putchar(p3);
-if (p1 == 7 && p2 == 8 && p3 == 9)
+if (p1 == 55 && p2 == 56 && p3 == 57)
 continue;
 putchar(44);
 putchar(32);
