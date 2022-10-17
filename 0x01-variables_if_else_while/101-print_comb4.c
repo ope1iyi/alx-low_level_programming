@@ -9,11 +9,11 @@
 int main(void)
 {
 int p1, p2, p3;
-for (p1 = 48; p1 <= 55; p1++)
+for (p1 = 48; p1 < 56; p1++)
 {
-for (p2 = p1 + 1; p2 <= 56; p2++)
+for (p2 = p1 + 1; p2 < 57; p2++)
 {
-for (p3 = p2 + 1; p3 <= 57; p3++)
+for (p3 = p2 + 1; p3 < 58; p3++)
 {
 putchar(p1);
 putchar(p2);
