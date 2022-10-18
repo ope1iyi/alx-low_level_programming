@@ -1,14 +1,13 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main - prints
- * -putchar foolwed by a newline
- *
+ * main - prints _putchar foolwed by a newline
+ * using _putchar
  * Return: 0
  */
 
 int main(void)
 {
-	printf("_putchar\n");
+	_putchar("_putchar\n");
 	return (0);
 }
