@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - checks for alphabet
- *
+ * @c: receives interger number
  *
  * Return: 0
  */
