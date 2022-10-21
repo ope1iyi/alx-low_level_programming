@@ -5,16 +5,11 @@
  * @c: receives interger input
  * Return: 1
  */
+
 int _isupper(int c)
 {
-	int upper = 65;
-
-	while (upper <= 90)
-	{
-		if (c == upper)
-			return (1);
-		else
-			return (0);
-		upper++;
-	}
+	if (c >= 65 && c <= 90)
+		return (1);
+	else
+		return (0);
 }
